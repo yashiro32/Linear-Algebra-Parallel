@@ -7,6 +7,11 @@ L.A.P in short for Linear Algebra Parallel is a Linear Algebra Library using par
 Uses JAMA a basic linear algebra package for Java for Matrix Multiplication benchmark comparision.
 (http://math.nist.gov/javanumerics/jama/)
 
+Uses Proprietary OpenCL drivers for Qualcomm's Adreno GPUs
+(https://github.com/madeye/opencl-android-proprietary/tree/master/adreno-3xx)
+
+Note: tested only on Android devices with Qualcomm Adreno GPUs.
+
 ### Example Code
 
 ##### Matrix Multiplication comparison. 
